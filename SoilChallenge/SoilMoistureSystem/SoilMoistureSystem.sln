@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoilMoistureSystem", "SoilMoistureSystem.csproj", "{B9CB5913-00F1-4E70-8A71-DA9B80A07520}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject", "..\TestProject2\TestProject.csproj", "{A101370B-A1B7-40EF-853E-0946F82A701D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9CB5913-00F1-4E70-8A71-DA9B80A07520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9CB5913-00F1-4E70-8A71-DA9B80A07520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9CB5913-00F1-4E70-8A71-DA9B80A07520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9CB5913-00F1-4E70-8A71-DA9B80A07520}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A101370B-A1B7-40EF-853E-0946F82A701D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A101370B-A1B7-40EF-853E-0946F82A701D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A101370B-A1B7-40EF-853E-0946F82A701D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A101370B-A1B7-40EF-853E-0946F82A701D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {81602F74-DD1D-4A15-93B0-6AE624C8DAA1}
+	EndGlobalSection
+EndGlobal
