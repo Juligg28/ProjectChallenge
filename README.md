@@ -90,16 +90,16 @@ Equivalence Partitioning Test Cases:
   Test Case  | Soil Type | Moisture Level  | Expected Output
 |------------|-----------|-----------------|-------------------------|
 | 1          | 1         | 0               | No Irrigation Instruction |
-| 2          | 1         | 150             | No Irrigation Instruction |
+| 2          | 1         | 150             | Drainage Required Instruction |
 | 3          | 1         | 151             | Drainage Required Instruction |
-| 4          | 2         | 70              | No Irrigation Instruction |
-| 5          | 2         | 87              | No Irrigation Instruction |
-| 6          | 2         | 88              | Irrigation Instruction |
-| 7          | 3         | 80              | No Irrigation Instruction |
-| 8          | 3         | 89              | No Irrigation Instruction |
-| 9          | 3         | 90              | Irrigation Instruction |
+| 4          | 2         | 70              | Irrigation Instruction |
+| 5          | 2         | 87              | Irrigation Instruction | 
+| 6          | 2         | 88              |  No Irrigation Instruction|
+| 7          | 3         | 80              | Irrigation Instruction |
+| 8          | 3         | 89              | Irrigation Instruction  |
+| 9          | 3         | 90              | No Irrigation Instruction |
 | 10         | 3         | 101             | Drainage Required Instruction |
-| 11         | 3         | 200             | Error: Invalid Moisture Level |
+| 11         | 3         | 200             | Drainage Required Instruction |
 
 
 
@@ -107,8 +107,8 @@ Equivalence Partitioning Test Cases:
 
 **Test Case | Soil Type | Moisture Level | Expected Output**
 |------------|-----------|-----------------|-------------------------|
-| 1          | 1         | 0               | No Irrigation Instruction |
-| 2          | 1         | 150             | No Irrigation Instruction |
+| 1          | 1         | 0               | DangerouslyLowAlert       |
+| 2          | 1         | 150             | Drainage Required Instruction |
 | 3          | 1         | 151             | Drainage Required Instruction |
 | 4          | 2         | 70              | No Irrigation Instruction |
 | 5          | 2         | 87              | No Irrigation Instruction |
