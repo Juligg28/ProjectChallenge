@@ -1,6 +1,6 @@
 # ProjectChallenge
 
-**Soil Moisture Calculator System**
+## Soil Moisture Calculator System
 
 This is a simple soil moisture calculator system developed in C# (.NET Core). The system determines recommended actions based on the soil type and reported moisture levels.
 
@@ -84,17 +84,23 @@ Parameters Table: Ideal Moisture levels (Delmhorst's KS-D1)
 | R4   | 4         | -10             | Error: Invalid Moisture Level |
 | R5   | 5         | 200             | Error: Invalid Moisture Level |
 
-#TestProject Analysis
+## TestProject Analysis
 Equivalence Partitioning Test Cases:
 
-Test Case |Soil Type | |Moisture Level|Expected Output
-	1	  | 	1	 |		  60	  |	Low Alert
-	2     |  	2	 |        90	  |Irrigation Instruction
-    3	  |		3	 |        110	  |High Alert
-    4	  |		1	 |	     -10	  |Error: Invalid Moisture Level
-    5     |	    2    |	      200     |Error: Invalid Moisture Level
-    6	  |     3    |        150	  |No Irrigation Instruction
-    7	  |     3    |	      151     |Drainage Required Instruction
+**Test Case | Soil Type | Moisture Level | Expected Output**
+|------------|-----------|-----------------|-------------------------|
+| 1          | 1         | 0               | No Irrigation Instruction |
+| 2          | 1         | 150             | No Irrigation Instruction |
+| 3          | 1         | 151             | Drainage Required Instruction |
+| 4          | 2         | 70              | No Irrigation Instruction |
+| 5          | 2         | 87              | No Irrigation Instruction |
+| 6          | 2         | 88              | Irrigation Instruction |
+| 7          | 3         | 80              | No Irrigation Instruction |
+| 8          | 3         | 89              | No Irrigation Instruction |
+| 9          | 3         | 90              | Irrigation Instruction |
+| 10         | 3         | 101             | Drainage Required Instruction |
+| 11         | 3         | 200             | Error: Invalid Moisture Level |
+
 
 
 ##Boundary Value Analysis Test Cases:
@@ -113,8 +119,7 @@ Test Case |Soil Type | |Moisture Level|Expected Output
 | 10         | 3         | 101             | Drainage Required Instruction |
 | 11         | 3         | 200             | Error: Invalid Moisture Level |
 
-    
-    
+        
 ##Invalid Test Cases:
 
 **Test Case | Soil Type | Moisture Level | Expected Output**
