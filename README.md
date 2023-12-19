@@ -87,7 +87,7 @@ Parameters Table: Ideal Moisture levels (Delmhorst's KS-D1)
 ## TestProject Analysis
 Equivalence Partitioning Test Cases:
 
-**Test Case | Soil Type | Moisture Level | Expected Output**
+  Test Case  | Soil Type | Moisture Level  | Expected Output
 |------------|-----------|-----------------|-------------------------|
 | 1          | 1         | 0               | No Irrigation Instruction |
 | 2          | 1         | 150             | No Irrigation Instruction |
@@ -122,7 +122,7 @@ Equivalence Partitioning Test Cases:
         
 ##Invalid Test Cases:
 
-**Test Case | Soil Type | Moisture Level | Expected Output**
+   Test Case | Soil Type | Moisture Level  | Expected Output
 |------------|-----------|-----------------|-------------------------|
 | 1          | 1         | -2              | Error: Invalid Soil Type |
 | 2          | 4         | 0               | Error: Invalid Soil Type |
